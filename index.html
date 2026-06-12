@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AgroTech 5.0 — Agro do Futuro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <div class="logo">AgroTech <span>5.0</span></div>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#tech" class="nav-link">Tecnologias</a>
+        <a href="#sim" class="nav-link">Simulador/Gráfico</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <img class="hero-logo" src="imagens/logo.jpg" alt="AgroTech 5.0 logo" />
+          <h1>AgroTech do Futuro: Produzir Mais, Gastando Menos</h1>
+          <p>Agro 5.0 combina tecnologia e sustentabilidade para otimizar insumos, reduzir desperdício e aumentar produtividade.</p>
+          <div class="hero-cta">
+            <a href="#sim" class="btn primary">Ver Simulador</a>
+            <a href="#tech" class="btn ghost">Conheça as tecnologias</a>
+          </div>
+        </div>
+        <img class="hero-visual" src="imagens/logo.jpg" alt="Logo AgroTech 5.0" />
+      </div>
+    </section>
+
+    <section class="section" id="tech">
+      <div class="container">
+        <h2 class="section-title">Tecnologias</h2>
+        <p class="section-sub">Soluções que ajudam o produtor a aumentar produtividade reduzindo impactos ambientais.</p>
+
+        <div class="tech-grid">
+          <article class="tech-card" tabindex="0" data-title="Drones & Irrigação Inteligente">
+            <div class="card-front">
+              <img class="card-img" src="imagens/drones.webp" alt="Drones e irrigação" />
+              <div class="card-icon">🚁</div>
+              <h3>Drones & Irrigação</h3>
+              <p>Mapeamento aéreo e irrigação por zonas para economizar água.</p>
+            </div>
+            <div class="card-back">
+              <h4>Como funciona</h4>
+              <p>Drones coletam imagens multispectrais; IA identifica áreas que precisam de água ou nutrientes e alimenta sistemas de irrigação automatizados.</p>
+            </div>
+          </article>
+
+          <article class="tech-card" tabindex="0" data-title="IA no Campo">
+            <div class="card-front">
+              <img class="card-img" src="imagens/ia.webp" alt="Inteligência Artificial no campo" />
+              <div class="card-icon">🤖</div>
+              <h3>Inteligência Artificial</h3>
+              <p>Previsões e decisões automatizadas para reduzir insumos e riscos.</p>
+            </div>
+            <div class="card-back">
+              <h4>Benefícios</h4>
+              <p>Modelos preditivos otimizam aplicação de fertilizantes e defensivos, reduzindo custos e impacto ambiental.</p>
+            </div>
+          </article>
+
+          <article class="tech-card" tabindex="0" data-title="Sensores de Solo">
+            <div class="card-front">
+              <img class="card-img" src="imagens/sensores de solo.jpg" alt="Sensores de solo" />
+              <div class="card-icon">🧪</div>
+              <h3>Sensores de Solo</h3>
+              <p>Monitoramento em tempo real da umidade e nutrientes.</p>
+            </div>
+            <div class="card-back">
+              <h4>Medidas reais</h4>
+              <p>Sensores transmitem dados para plataformas que ajustam irrigação e reposição de nutrientes automaticamente.</p>
+            </div>
+          </article>
+
+          <article class="tech-card" tabindex="0" data-title="Robótica & Automação">
+            <div class="card-front">
+              <img class="card-img" src="imagens/robotica e auto.webp" alt="Robótica e automação" />
+              <div class="card-icon">⚙️</div>
+              <h3>Robótica & Automação</h3>
+              <p>Máquinas de precisão que reduzem o uso de insumos.</p>
+            </div>
+            <div class="card-back">
+              <h4>Impacto</h4>
+              <p>Operações automatizadas aplicam apenas o necessário, reduzindo perdas e custos operacionais.</p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section stats" id="sim">
+      <div class="container">
+        <h2 class="section-title">Simulador / Gráfico</h2>
+        <p class="section-sub">Números estimados de recursos economizados com tecnologias Agro 5.0</p>
+
+        <div class="stats-grid">
+          <div class="stat" data-target="125000">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Litros de água economizados hoje</div>
+          </div>
+          <div class="stat" data-target="34000">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Kg de fertilizante evitado</div>
+          </div>
+          <div class="stat" data-target="8700">
+            <div class="stat-value">0</div>
+            <div class="stat-label">kWh de energia poupada</div>
+          </div>
+        </div>
+
+        <div class="chart-placeholder">
+          <div class="chart-note">Gráfico ilustrativo</div>
+          <div class="bars">
+            <div class="bar" style="--h:70%"><span>Água</span></div>
+            <div class="bar" style="--h:45%"><span>Fertilizante</span></div>
+            <div class="bar" style="--h:30%"><span>Energia</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Contato</h2>
+          <p>Fale conosco para saber como aplicar soluções Agro 5.0 na sua propriedade.</p>
+          <ul class="contact-list">
+            <li>Email: contato@agrotech50.ex</li>
+            <li>Telefone: +55 11 99999-9999</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Obrigado! Formulário simulado.');">
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Mensagem" rows="4" required></textarea>
+          <button class="btn primary" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 AgroTech 5.0</div>
+      <div class="socials">Desenvolvido com ♥ para o Agro</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
